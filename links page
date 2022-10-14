@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>My first styled page</title>
+</head>
+<style type="text/css">
+ body {
+   padding-left: 14em;
+   font-family: sans-serif;
+   color: darkred;
+   background-color: palevioletred;
+  }
+  ul.navbar{
+    list-style-type: upper-norwegian ;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    width: 8em;
+  }
+   h1{
+    font: bold serif;
+    font-size: large;
+    color: darkred;
+  }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+   }
+   ul.navbar li{
+    text-decoration: none}
+    a: link{
+      color: blue;
+    }
+   a:visited{
+    color: purple;
+   }
+    </style>
+  </head> 
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="lab2.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+ <body>
+<!-- Main content -->
+<h1> This page contains links to my intrests  </h1>
+
+<p> This link will take you to stock trading strategies
+  <a href="https://youtu.be/FRHE-ft4dVo?t=1404">Links</a>
+ 
+<p> link to amazon
+  <a href="https://www.primevideo.com/hp/video/offers/nonprimehomepage/ref=dv_web_force_root/140-5196308-9795238?_encoding=UTF8&dvah=nonprimehomepage">Links</a>
+
+ 
+<!-- Sign and date the page, it's only polite! --> 
+</body>
+</html>
